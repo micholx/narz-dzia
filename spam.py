@@ -1,4 +1,5 @@
 
+
 import pyautogui
 
 
@@ -85,7 +86,20 @@ def start_spammer(text, count, delay):
         print("\n[!] PRZERWANIE PRZEZ UŻYTKOWNIKA: Zatrzymano spamowanie.")
         sys.exit()
 
+def print_logo():
+    print("""
+    MMMMM  CCCCC  TTTTTT  OOOOO  OOOOO  L       SSSSS
+    M   M  C      T     O   O  O   O  L       S
+    M   M  C      T     O   O  O   O  L       S
+    M   M  C      T     O   O  O   O  L       SSSSS
+    M   M  C      T     O   O  O   O  L           S
+    M   M  C      T     O   O  O   O  L           S
+    M   M  CCCCC  T      OOOO   OOOO   LLLLLL  SSSSS
+    """)
+
+
 if __name__ == "__main__":
+    print_logo()
     print("=== TESTOWY AUTOMAT WIADOMOŚCI (SPAMMER) ===")
     
     # Konfiguracja parametrów testu
